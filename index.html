@@ -8,21 +8,21 @@
     <title>Portfolio</title>
   </head>
   <body class="bg-dark">
-    <section class="nav-header container">
-      <div class="nav">
-        <a href="#">Home</a>
-        <div class="nav-items">
-          <ul>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </div>
+    <section class="nav-header container-fluid">
       <div class="header">
         <div class="title">
           <h1 class="text-white">Kamil Baldyga</h1>
           <p class="text-white">Web Development</p>
+        </div>
+      </div>
+      <div class="nav">
+        <a href="#">Home</a>
+        <div class="nav-items">
+          <ul>
+            <li><a href="#">skills</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
         </div>
       </div>
     </section>
@@ -31,7 +31,7 @@
       class="section1 container d-flex flex-column justify-content-center align-items-center"
     >
       <div class="title">
-        <h2 class="text-white">About Me</h2>
+        <h2 class="text-white">Skills</h2>
       </div>
       <div class="cards d-flex">
         <div class="card" style="width: 18rem">
@@ -91,14 +91,36 @@
     </section>
     <!-- Section 3 -->
     <section
-      class="section3 container d-flex flex-column justify-content-center align-items-center"
+      class="section3 container d-flex flex-column justify-content-center align-items-start"
     >
       <div class="title text-center">
-        <h3 class="text-white">Contact Me</h3>
-        <p class="text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-          debitis.
-        </p>
+        <div class="contact-div">
+          <form>
+            <h5 class="text-white text-start">Contact Me</h5>
+            <div class="contactus d-flex flex-column">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="NAME"
+              /><input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-MAIL"
+              />
+              <textarea
+                name="message"
+                id="MESSAGE"
+                placeholder="MESSAGE"
+                rows="1"
+              ></textarea>
+              <div class="btn btn-send text-white btn-danger">
+                <p class="p-0 m-0">SEND</p>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
     <!-- Footer -->

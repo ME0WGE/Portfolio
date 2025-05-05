@@ -1,7 +1,20 @@
 @charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-header {
+  padding: 1rem;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .nav-header .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .nav-header .nav a {
   text-decoration: none;
@@ -11,7 +24,7 @@
   color: white;
   display: flex;
   list-style: none;
-  gap: 5rem;
+  gap: 2rem;
 }
 .nav-header .header .title {
   display: flex;
@@ -19,7 +32,23 @@
   justify-content: center;
   align-items: center;
 }
+.nav-header .header .title h1 {
+  font-size: 5rem;
+}
+.nav-header .header .title p {
+  font-size: 2rem;
+}
 
+.section1 .cards {
+  gap: 3rem;
+}
+.section1 .cards .card i {
+  font-size: 4rem;
+}
+.section1 .cards .card .card-body .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
 footer {
   border-top: 1px solid black;
   border-color: rgba(176, 159, 199, 0.4784313725) !important;
