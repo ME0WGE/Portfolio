@@ -74,6 +74,71 @@ body {
   }
 }
 
+.contact-div {
+  form {
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+      font-weight: 600;
+      font-size: 3rem;
+      color: white;
+
+      margin-bottom: 3rem;
+    }
+
+    .contactus {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      input {
+        background: #212529;
+
+        color: white;
+        font-weight: 600;
+        font-size: 1.25rem;
+
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+
+        width: 150%;
+      }
+      textarea {
+        background: #212529;
+
+        color: white;
+        font-weight: 600;
+        font-size: 1.25rem;
+
+        width: 150%;
+
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+      }
+
+      .btn-send {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 0%;
+
+        width: 60%;
+
+        p {
+          margin: 0;
+
+          font-size: 1.25rem;
+          font-weight: 600;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
 footer {
   border-top: 1px solid black;
   border-color: #b09fc77a !important;

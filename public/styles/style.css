@@ -49,6 +49,54 @@ body {
   font-size: 2rem;
   font-weight: bold;
 }
+.contact-div form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-div form h5 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.contact-div form .contactus {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.contact-div form .contactus input {
+  background: #212529;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+  width: 150%;
+}
+.contact-div form .contactus textarea {
+  background: #212529;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  width: 150%;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+}
+.contact-div form .contactus .btn-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0%;
+  width: 60%;
+}
+.contact-div form .contactus .btn-send p {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 footer {
   border-top: 1px solid black;
   border-color: rgba(176, 159, 199, 0.4784313725) !important;
