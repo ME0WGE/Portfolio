@@ -39,6 +39,9 @@ body {
   font-size: 2rem;
 }
 
+.section1 {
+  margin: 5rem;
+}
 .section1 .cards {
   gap: 3rem;
 }
@@ -95,6 +98,10 @@ body {
   font-weight: 600;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.section2 {
+  margin: 5rem;
 }
 
 footer {

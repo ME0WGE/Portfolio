@@ -55,6 +55,7 @@ body {
 }
 
 .section1 {
+  margin: 5rem;
   .cards {
     gap: 3rem;
     .card {
@@ -137,6 +138,10 @@ body {
       }
     }
   }
+}
+
+.section2 {
+  margin: 5rem;
 }
 
 footer {
